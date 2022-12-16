@@ -21,7 +21,7 @@
   </header>
 
   <main>
-    <!-- Search weather API by city -->
+    <!-- Search weather API by city (button fills column with bootstrap@5.2.3)-->
     <div class="container">
       <div class="row">
         <div class="col col-md-3 card card-body mb-2 mt-2">
@@ -32,27 +32,30 @@
               Search
             </button>
           </div>
+          <br />
+          <!-- Display searched cities -->
+          <div class="search-history">
+            <h5>Recent searches:</h5>
+            <div id="recent-search"></div>
+          </div>
         </div>
-      </div>
-      <br />
-      <!-- Display searched cities -->
-      <div class="search-history">
-        <h5>Recent searches:</h5>
-        <div id="recent-search"></div>
-      </div>
-    </div>
 
+        <!-- Selected city's current weather -->
+        <div class="col col-md-9 mt-2 mb-0">
+          <div class="card">
+            <header class="card-header text-light text-center">
+              <div id="city-name-display" class="fs-4 text">
+                City Name</div>
+            </header>
+            <div id="current-weather" class="card-body">
 
-
-    <!-- Time & date from script js -->
-    <div class="date-time">
-      <div id="current-date"></div>
-      <div id="current-time"></div>
-    </div>
-
-
-
-
+              <!-- Time & date from script js -->
+              <div class="date-time">
+                <div id="current-date"></div>
+                <div id="current-time"></div>
+              </div>
+            </div>
+          </div>
   </main>
 
   <!-- Third-Party JS -->
