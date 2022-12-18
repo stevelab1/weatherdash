@@ -8,6 +8,8 @@ var API_KEY = yourKey; // register for a free key at openweathermap.com
 var searchBtn = document.querySelector("#search-button");
 var userInput = document.querySelector("#user-search-input");
 var recentSearch = document.querySelector("#recent-search");
+
+// 'enter' event
 userInput.addEventListener("keyup", (event) => {
   if (event.key === "Enter") {
     // Get user input: city
