@@ -4,7 +4,7 @@ Weather Dashboard using api.openweathermap.org to display current weather condit
 ## Stored and deployed:
 * https://github.com/stevelab1/weatherdash
 
-* Deployed app URL: 
+* Deployed app URL: https://stevelab1.github.io/weatherdash/
 
 ## Screenshot
 
