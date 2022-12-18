@@ -2,7 +2,7 @@
 
 // const YOUR_API_KEY = x;
 
-var API_KEY = process.env.YOUR_API_KEY; // register for a free key at openweathermap.com
+const API_KEY = process.env.YOUR_API_KEY; // register for a free key at openweathermap.com
 
 alert(API_KEY);
 console.log(API_KEY);
@@ -24,18 +24,6 @@ var city =
 console.log(cityArrStored);
 console.log(city);
 console.log(cityArrStored.length > 0 ? cityArrStored.length - 1 : null);
-
-// userInput.addEventListener("keyup", (event) => {
-//   if (event.key === "Enter") {
-//     // ------ get user input for city name ------
-//     var cityInput = userInput.value.trim().toLowerCase();
-//     city = toTitleCase(cityInput);
-
-//     searchCity(city, API_KEY); // search city's current weather and display on html
-//     getCityGeo(city, API_KEY); // to get the city's geo latitudes & longitudes
-//     saveRecentSearch(city); // to save the recent search to local storage & display under the search box
-//   }
-// });
 
 // Search city's weather, geo lat and longitude based on user input
 // Save the recent search
