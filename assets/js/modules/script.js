@@ -15,7 +15,7 @@ var recentSearch = document.querySelector("#recent-search");
 // Get recent searches from local storage
 var cityArrStored = JSON.parse(localStorage.getItem("cities")) || [];
 
-// Last city stored, or London
+// Last city stored OR London
 var city =
   cityArrStored[cityArrStored.length > 0 ? cityArrStored.length - 1 : null] ||
   "London";
