@@ -2,7 +2,7 @@
 
 // const YOUR_API_KEY = x;
 
-var API_KEY = process.env.YOUR_API_KEY; // register for a free key at openweathermap.com
+var API_KEY = YOUR_API_KEY; // register for a free key at openweathermap.com
 
 // Assign HTML Elements to variables
 var searchBtn = document.querySelector("#search-button");
