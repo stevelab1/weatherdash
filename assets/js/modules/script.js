@@ -1,11 +1,4 @@
-// import { x } from "./config.js";
-
-// const YOUR_API_KEY = x;
-
-const API_KEY = process.env.YOUR_API_KEY; // register for a free key at openweathermap.com
-
-alert(API_KEY);
-console.log(API_KEY);
+const API_KEY = YOUR_API_KEY; // register for a free key at openweathermap.com
 
 // Assign HTML Elements to variables
 var searchBtn = document.querySelector("#search-button");
@@ -67,7 +60,7 @@ function searchCity(city, API_KEY) {
         $("#wind-speed").text(currentWindSpeed);
         var iconTemplate = ``;
         document.getElementById("weather-icon").innerHTML = "";
-        iconTemplate = `<img src="http://openweathermap.org/img/wn/${currentWeatherIcon}.png" alt="weather-icon" id="current-weather-icon">`;
+        iconTemplate = `<img src="https://openweathermap.org/img/wn/${currentWeatherIcon}.png" alt="weather-icon" id="current-weather-icon">`;
         document.getElementById("weather-icon").innerHTML += iconTemplate;
       }
       displayCurrentWeather();
@@ -111,7 +104,7 @@ function displayFiveDayForecast(lat, lon) {
         template = `
             <ul class="forecast-five-day">
             <li><span class="fs-5 text">${date}</span></li>
-            <img src="http://openweathermap.org/img/wn/${data.list[i].weather[0].icon}.png" alt="weather-icon" id="forecast-weather-icon">
+            <img src="https://openweathermap.org/img/wn/${data.list[i].weather[0].icon}.png" alt="weather-icon" id="forecast-weather-icon">
             <li> Temp: <span class="fs-5 text">${temp}&#176C</span></li>
             <li> Wind: <span class="fs-5 text">${windSpeed}m/s</span></li>
             <li> Humidity: <span class="fs-5 text">${humidity}%</span></li>
