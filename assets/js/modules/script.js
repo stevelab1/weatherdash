@@ -4,6 +4,8 @@
 
 var API_KEY = YOUR_API_KEY; // register for a free key at openweathermap.com
 
+alert(API_KEY + " is API_KEY");
+
 // Assign HTML Elements to variables
 var searchBtn = document.querySelector("#search-button");
 var userInput = document.querySelector("#user-search-input");
