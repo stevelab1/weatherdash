@@ -19,7 +19,10 @@ The following image shows the web application's appearance and functionality:
 * Local Storage
 
 ## Credits
-
 2U
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
