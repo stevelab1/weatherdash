@@ -1,8 +1,8 @@
-import { x } from "./config.js";
+// import { x } from "./config.js";
 
-const yourKey = x;
+// const YOUR_API_KEY = x;
 
-var API_KEY = yourKey; // register for a free key at openweathermap.com
+var API_KEY = process.env.YOUR_API_KEY; // register for a free key at openweathermap.com
 
 // Assign HTML Elements to variables
 var searchBtn = document.querySelector("#search-button");
