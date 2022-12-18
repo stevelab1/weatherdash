@@ -178,6 +178,12 @@ function buildSearchButtons() {
   }
 }
 
+// Display current date & time (jQuery, Moment JS)
+function displayTime() {
+  $("#current-date").text(moment().format("dddd, MMMM Do, YYYY"));
+  $("#current-time").text(moment().format("h:mm:ss A"));
+}
+setInterval(displayTime, 1000);
 
 buildSearchButtons();
 
