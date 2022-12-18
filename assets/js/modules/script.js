@@ -2,7 +2,7 @@
 
 // const YOUR_API_KEY = x;
 
-const API_KEY = process.env.YOUR_API_KEY; // register for a free key at openweathermap.com
+const API_KEY = env.YOUR_API_KEY; // register for a free key at openweathermap.com
 
 alert(API_KEY);
 console.log(API_KEY);
