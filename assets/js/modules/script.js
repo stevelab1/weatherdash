@@ -46,7 +46,6 @@ function searchCity(city, API_KEY) {
       return response.json();
     })
     .then(function (data) {
-      var cityName = data.name;
       var currentTemp = Math.round(data.main.temp);
       var currentHumidity = data.main.humidity;
       var currentWindSpeed = data.wind.speed;
